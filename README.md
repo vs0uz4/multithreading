@@ -1,4 +1,4 @@
-# Go Multi-threading
+# Go Multithreading
 
 > [!IMPORTANT]  
 > Para poder executar o projeto contido neste repositório é necessário que se tenha o Go instalado no computador. Para maiores informações siga o site <https://go.dev/>
@@ -19,6 +19,16 @@ Temos os seguintes requisitos a serem seguidos:
 - As duas requisições, devem ser realizadas simultaneamente;
 - Acatar a API que entregar a resposta mais rápida e descartar a resposta mais lenta;
 - Limitar o tempo de resposta em 1 segundo, Caso contrário, o erro de timeout deve ser exibido.
+
+## Extras Adicionados no Desafio
+
+Por conta de questões como boas práticas, decidi adicionar alguns pontos extras no exercício, como por exemplo:
+
+- Validação do CEP;
+    > Valida se a informação tem o tamanho de um CEP (8) e é formada apenas por dígitos.
+
+- Carregamento das URL de variáveis de ambiente;
+    > Ao invés das URL's das API's serem inputadas diretamente `hardcoded` coloquei elas sendo passadas por variáveis de ambiente, de forma que no caso de uma mudança, ou troca de API's, desde que obdeça o mesmo contrato não haja necessidade de mexer no código.
 
 ### Executando os sistemas
 
