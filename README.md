@@ -32,4 +32,15 @@ Por conta de questões como boas práticas, decidi adicionar alguns pontos extra
 
 ### Executando os sistemas
 
-WIP...
+Para executar o sistema, basta executar o comando abaixo, sempre passando como argumento um cep válido.
+
+```shell
+❯ go run main.go 21810020
+```
+
+Na janela do terminal você deverá ver uma mensagem parecida com o exemplo abaixo:
+
+```shell
+❯ go run main.go 21810020
+API ViaCEP :: resposta - {Cep:21810-020 Logradouro:Praça da Fé Complemento: Bairro:Bangu Localidade:Rio de Janeiro Uf:RJ}
+```
