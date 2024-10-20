@@ -41,6 +41,6 @@ Para executar o sistema, basta executar o comando abaixo, sempre passando como a
 Na janela do terminal você deverá ver uma mensagem parecida com o exemplo abaixo:
 
 ```shell
-❯ go run main.go 21810020
-API ViaCEP :: resposta - {Cep:21810-020 Logradouro:Praça da Fé Complemento: Bairro:Bangu Localidade:Rio de Janeiro Uf:RJ}
+❯ go run main.go 21831430
+API BrasilAPI :: resposta (86.366792ms) - {Cep:21831430 Logradouro:Rua Júlio Conceição Complemento: Bairro:Senador Camará Localidade:Rio de Janeiro Uf:RJ}
 ```
